@@ -1,5 +1,7 @@
 # deficithawks
-This is the code used to produce the results in  "Deficit hawks: robust new physics searches with unknown backgrounds".
+[![arXiv](https://img.shields.io/badge/arXiv-2204.03264-b31b1b.svg)](https://arxiv.org/abs/2204.03264)
+
+This is the code used to produce the results in [Deficit hawks: robust new physics searches with unknown backgrounds](https://arxiv.org/abs/2204.03264).
 
 
   * Figure 1 / Example experiment: [cylinder.ipynb](https://github.com/JelleAalbers/deficithawks/blob/main/cylinder.ipynb)
@@ -22,7 +24,7 @@ Afterwards, you can run the notebooks in the repository folder.
 
 ## Caveats
 
-If you want to play around with deficit hawks, this code may not be the ideal place to start. Although [cylinder.ipynb](https://github.com/JelleAalbers/deficithawks/blob/main/cylinder.ipynb) could be helpful, the other notebooks mainly test different scenarios in bulk.
+If you want to play around with deficit hawks, this code may not be the ideal place to start. Although [cylinder.ipynb](https://github.com/JelleAalbers/deficithawks/blob/main/cylinder.ipynb) can be helpful, the other notebooks mainly test different scenarios in bulk.
 
 Instead, you may prefer to use your favourite inference software (whether that is [RooFit](https://root.cern/manual/roofit/), [zfit](https://github.com/zfit/zfit), [pyhf](https://github.com/scikit-hep/pyhf), etc.) to brew your own deficit hawk. All you need is the ability to:
 
