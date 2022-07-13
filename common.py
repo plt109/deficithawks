@@ -122,7 +122,7 @@ def halfpipe_asym(mu=1, halfpipe_width=0.2):
 # Plotting helpers
 ##
 
-def sketch_dist(dist, fudge=1e-7, xlabel='Unknown PDF', color='k'):
+def sketch_dist(dist, fudge=1e-7, xlabel='Unknown PDF', annotation=None, color='k'):
     ax = plt.gca()
     x = np.linspace(fudge, 1 - fudge, 1000)
 
@@ -149,6 +149,14 @@ def sketch_dist(dist, fudge=1e-7, xlabel='Unknown PDF', color='k'):
         ax.spines[q].set_visible(False)
 
     plt.grid(c='k', alpha=0.1, linewidth=0.5)
+
+    if annotation:
+        plt.text(
+            0.025, 0.9, annotation,
+            alpha=0.5,
+            transform=plt.gca().transAxes,
+            va='top',
+            ha='left', fontsize=3)
 
 
 def logticks(tmin, tmax=None, tick_at=None):

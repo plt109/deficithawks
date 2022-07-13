@@ -11,7 +11,8 @@ This is the code used to produce the results in [Deficit hawks: robust new physi
 * Figures 5 and 6 / Statistic comparison : [statistic_choice.ipynb](https://github.com/JelleAalbers/deficithawks/blob/main/statistic_choice.ipynb)
  * Figure 7 / Known background: [known_bg.ipynb](https://github.com/JelleAalbers/deficithawks/blob/main/known_bg.ipynb)
  * Figure 8 / Known and unknown background: [mixed_bg.ipynb](https://github.com/JelleAalbers/deficithawks/blob/main/mixed_bg.ipynb)
- * Figure 10-13 / Additional Scenarios: [extra_scenarios.ipynb](https://github.com/JelleAalbers/deficithawks/blob/main/extra_scenarios.ipynb)
+ * Figure 9 / Detection claims: [discovery.ipynb](https://github.com/JelleAalbers/deficithawks/blob/main/discovery.ipynb)
+ * Figure 11-14 / Additional Scenarios: [extra_scenarios.ipynb](https://github.com/JelleAalbers/deficithawks/blob/main/extra_scenarios.ipynb)
 
 ## Installation
 
